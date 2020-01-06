@@ -1,0 +1,42 @@
+http://wts/appsw/curbside/ws/submitdata
+- To submit new record
+- Parameters: location, doctor, service
+- Request type: POST
+
+http://wts/appsw/curbside/ws/locations/all
+- To fetch all hospital locations
+- Parameters: none
+- Request type: GET
+
+http://wts/appsw/curbside/ws/locations/:loc_id
+- To fetch location based on location id
+- Parameters: loc_id
+- Request type: GET
+
+http://wts/appsw/curbside/ws/locations/in-active
+- To fetch all inactive hospital locations
+- Parameters: none
+- Request type: GET
+
+http://wts/appsw/curbside/ws/doctors/all
+- To fetch all primary doctors
+- Parameters: none
+- Request type: GET
+
+http://wts/appsw/curbside/ws/doctors/:doc_id
+- To fetch doctor details based on the doctor Id
+- Parameters: doc_id
+- Request type: GET
+
+http://wts/appsw/curbside/ws/doctors/service/:service
+- To fetch all doctor based on the admitting service
+- Parameters: service
+- Request type: GET
+
+http://wts/appsw/curbside/ws/doctors/in-active
+- To fetch all inactive doctors
+- Parameters: none
+- Request type: GET
+
+
+
